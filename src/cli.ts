@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+import 'dotenv/config';
+import { main } from './index.js';
+
+main().catch((error) => {
+  console.error('Fatal error:', error);
+  process.exit(1);
+});
