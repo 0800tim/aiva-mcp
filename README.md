@@ -194,7 +194,7 @@ Set `DEBUG=aiva:*` environment variable for verbose logging:
 
 ## Related Packages
 
-- [`create-aiva-app`](https://github.com/0800tim/create-aiva-app) - CLI to scaffold AIVA-powered apps
+- [`@getaiva/create-app`](https://github.com/0800tim/create-aiva-app) - CLI to scaffold AIVA-powered apps
 - [`customer-portal-starter`](https://github.com/0800tim/customer-portal-starter) - Customer portal starter kit
 
 ## License
