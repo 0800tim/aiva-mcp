@@ -1,5 +1,5 @@
 {
-  "name": "@aiva/mcp",
+  "name": "@getaiva/mcp",
   "version": "0.1.0",
   "description": "Model Context Protocol server for AIVA - Connect AI tools to customer intelligence and Shopify data",
   "main": "dist/index.js",

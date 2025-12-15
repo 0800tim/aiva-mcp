@@ -1,6 +1,6 @@
 # AIVA MCP Server
 
-[![npm version](https://badge.fury.io/js/@aiva%2Fmcp.svg)](https://www.npmjs.com/package/@aiva/mcp)
+[![npm version](https://badge.fury.io/js/@getaiva%2Fmcp.svg)](https://www.npmjs.com/package/@getaiva/mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Model Context Protocol server for AIVA** - Connect your AI coding tools to AIVA's customer intelligence and Shopify data.
@@ -19,7 +19,7 @@ AIVA MCP is a [Model Context Protocol](https://modelcontextprotocol.io/) server 
 ### Installation
 
 ```bash
-npm install @aiva/mcp
+npm install @getaiva/mcp
 ```
 
 ### Configuration
@@ -32,7 +32,7 @@ Add to your MCP configuration file:
   "mcpServers": {
     "aiva": {
       "command": "npx",
-      "args": ["@aiva/mcp"],
+      "args": ["@getaiva/mcp"],
       "env": {
         "AIVA_API_KEY": "your-api-key-here"
       }
@@ -47,7 +47,7 @@ Add to your MCP configuration file:
   "mcpServers": {
     "aiva": {
       "command": "npx",
-      "args": ["@aiva/mcp"],
+      "args": ["@getaiva/mcp"],
       "env": {
         "AIVA_API_KEY": "your-api-key-here"
       }
@@ -63,7 +63,7 @@ Add to your MCP configuration file:
     {
       "name": "aiva",
       "command": "npx",
-      "args": ["@aiva/mcp"],
+      "args": ["@getaiva/mcp"],
       "env": {
         "AIVA_API_KEY": "your-api-key-here"
       }
@@ -195,7 +195,7 @@ Set `DEBUG=aiva:*` environment variable for verbose logging:
 ## Related Packages
 
 - [`create-aiva-app`](https://github.com/0800tim/create-aiva-app) - CLI to scaffold AIVA-powered apps
-- [`@aiva/customer-portal`](https://github.com/0800tim/customer-portal-starter) - Customer portal starter kit
+- [`customer-portal-starter`](https://github.com/0800tim/customer-portal-starter) - Customer portal starter kit
 
 ## License
 

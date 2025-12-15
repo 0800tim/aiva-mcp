@@ -15,13 +15,13 @@ This guide will help you set up AIVA MCP with your favorite AI coding tool.
 No installation required. Just configure your AI tool to use:
 
 ```bash
-npx @aiva/mcp
+npx @getaiva/mcp
 ```
 
 ### Option 2: Global Installation
 
 ```bash
-npm install -g @aiva/mcp
+npm install -g @getaiva/mcp
 ```
 
 Then use `aiva-mcp` as the command in your configuration.
@@ -37,7 +37,7 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json`:
   "mcpServers": {
     "aiva": {
       "command": "npx",
-      "args": ["-y", "@aiva/mcp"],
+      "args": ["-y", "@getaiva/mcp"],
       "env": {
         "AIVA_API_KEY": "your-api-key-here"
       }
@@ -55,7 +55,7 @@ Create `.cursor/mcp.json` in your project root:
   "mcpServers": {
     "aiva": {
       "command": "npx",
-      "args": ["-y", "@aiva/mcp"],
+      "args": ["-y", "@getaiva/mcp"],
       "env": {
         "AIVA_API_KEY": "${AIVA_API_KEY}"
       }
@@ -73,7 +73,7 @@ Create `.vscode/mcp.json` in your project root:
   "mcpServers": {
     "aiva": {
       "command": "npx",
-      "args": ["-y", "@aiva/mcp"],
+      "args": ["-y", "@getaiva/mcp"],
       "env": {
         "AIVA_API_KEY": "${env:AIVA_API_KEY}"
       }
@@ -91,7 +91,7 @@ Create `.claude/mcp.json` (project) or `~/.claude/mcp.json` (global):
   "mcpServers": {
     "aiva": {
       "command": "npx",
-      "args": ["-y", "@aiva/mcp"],
+      "args": ["-y", "@getaiva/mcp"],
       "env": {
         "AIVA_API_KEY": "${AIVA_API_KEY}"
       }
